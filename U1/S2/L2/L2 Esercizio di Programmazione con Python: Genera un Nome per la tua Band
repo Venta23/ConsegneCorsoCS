@@ -1,0 +1,6 @@
+#OBJ: scrivere un programma in Python che genera un nome per una band musicale 
+# utilizzando due input forniti dall'utente: citta di origine e nome animale domestico.
+
+City = input("inserisci la tua città di origine: ")
+Pet = input("inserisci il nome del tuo animale domestico: ")
+print("il nome della band è:", "I " + Pet + " di " + City)
