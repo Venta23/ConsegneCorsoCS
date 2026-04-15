@@ -1,0 +1,27 @@
+# Si scriva un programma in Python che in base alla scelta dellʼutente 
+# permetta di calcolare il perimetro di diverse figure geometriche.
+
+print ("1. Quadrato")
+print ("2. Cerchio")
+print ("3. Rettangolo")
+
+figura = input("Scegli una figura tra 1, 2 o 3: ")
+
+if figura == "1":
+    lato = float(input("Inserisci il lato del quadrato in cm: "))
+    perimetro = lato * 4
+    print(perimetro, "cm")
+
+elif figura == "2":
+    raggio = float(input("Inserisci il raggio del cerchio in cm: "))
+    circonferenza = raggio * 2 * 3.14
+    print (circonferenza, "cm")
+
+elif figura == "3":
+    base = float(input("Inserisci la base del rettangolo in cm: "))
+    altezza = float(input("Inserisci l'altezza del rettangolo in cm: "))
+    perimetro = base * 2 + altezza * 2
+    print(perimetro, "cm")
+
+else:
+    print("Scelta non valida!")
